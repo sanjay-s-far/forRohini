@@ -1,0 +1,29 @@
+<div class="mainsection container-fluid ">
+    <div class="row justify-content-end">
+        <div class="col-5 mt-5">
+          <h2>Unleash Your talent <br> potential with launchpad</h2><br>
+          <div class="check-section">
+            <span  ><i class="fa-solid fa-square-check "></i> Personal Talent Management Tool</span><br>
+            <span><i class="fa-solid fa-square-check"></i> Network of Talent & Talent Hunters</span>
+          </div>
+         
+          <div class="button-sec ">
+            <span>
+                <button class="btn btn-primary section-btn" type="submit">Explore Roles</button>
+               </span> 
+               <span>
+                <button class="btn  btn-outline-primary section-btn" type="submit">Post Job</button>
+               </span> 
+          </div>
+           
+          
+        </div>
+        <div class="col-6 mt-5  mainsection-secondpart">
+          <img *ngFor='let in of counter(14) ;let i = index' class="sideImg" src="../../../assets/images/{{i+1}}.svg" alt="">
+
+        </div>
+      </div>
+    
+</div>
+<app-second-section></app-second-section>
+<app-thirdsection></app-thirdsection>

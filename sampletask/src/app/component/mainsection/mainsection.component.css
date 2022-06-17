@@ -1,0 +1,29 @@
+.fa-square-check{
+    color: green;
+}
+.mainsection{
+    background: linear-gradient(90deg, rgba(190, 242, 250, 0.18) 41%, rgba(245, 191, 252, 0.285) 100%, rgba(17,1,47,0) 100%, rgba(119,9,121,0) 100%);
+    padding: 10px;
+}
+.button-sec{
+    margin-top: 80px ;
+}
+.button-sec span:nth-child(2) {
+    margin-left: 50px;
+}
+.section-btn{
+    padding: 5px 20px;
+}
+
+.mainsection-secondpart {
+    overflow: hidden;
+}
+.check-section{
+    margin-top: 20px;
+}
+.sideImg{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

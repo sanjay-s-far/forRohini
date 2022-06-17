@@ -1,0 +1,29 @@
+.thridsection{
+    margin-bottom: 80px;
+}
+.thirdsec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+.role-card-title{
+    background-color: rgb(243, 243, 243);
+    position: absolute;
+    padding: 5px 14px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+.crdimg{
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+}
+.final-card{
+    background: transparent;
+    border: none;
+}
+.final-card h3{
+    margin-top: 90px;
+}

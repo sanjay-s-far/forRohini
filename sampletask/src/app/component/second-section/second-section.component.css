@@ -1,0 +1,18 @@
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    
+}
+.content-cards .card{
+    border: none;
+}
+.content-cards .card:hover{
+    border: 1px solid gray;
+}
